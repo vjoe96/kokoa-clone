@@ -5,7 +5,7 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>Welcome to KokoaClone</title>
-        <link rel="stylesheet" href="style.css" />
+        <link rel="stylesheet" href="css/style.css" />
     </head>
     <body>
         <div class="status-bar">
@@ -22,16 +22,20 @@
                 <i class="fas fa-bolt"></i>
             </div>
         </div>
-        <heeder class="Welcome-header">
+        <div class="Welcome-header">
             <h1 class="Welcome-header__title">Welcome to KokoaClone</h1>
             <p class="Welcome-header__text">This is fake!!!ㅋㅋ</p>
-        </heeder>
-        <form class="login-form">
-            <input type="text" placeholder="Email or Phone number" />
-            <input type="password" placeholder="Password" />
+        </div>
+        <form action="friends.html" method="GET" class="login-form">
+            <input
+                name="username"
+                type="text"
+                placeholder="Email or Phone number"
+            />
+            <input name="password" type="password" placeholder="Password" />
             <input type="submit" value="Log in" />
+            <a href="#">Find Kokoa Account or Password</a>
         </form>
-        <a href="#">Find Kokoa Account or Password</a>
         <script
             src="https://kit.fontawesome.com/93b8279732.js"
             crossorigin="anonymous"
